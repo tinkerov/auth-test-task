@@ -12,6 +12,8 @@ class User(AbstractUser):
     email = models.EmailField(unique=True)
     middle_name = models.CharField(max_length=150, blank=True)
     
+    first_name = models.CharField(max_length=150, blank=True, null=True)
+    last_name = models.CharField(max_length=150, blank=True, null=True)
    
     roles = models.ManyToManyField(Role, related_name="users", blank=True)
 
