@@ -1,7 +1,5 @@
 Система авторизации на Django REST Framework (JWT)
 
-Тестовое задание на позицию Junior Python Developer.
-
 Реализованный функционал:
 
 - JWT-авторизация: Использование access и refresh токенов.
